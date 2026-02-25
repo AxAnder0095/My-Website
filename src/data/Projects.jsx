@@ -6,6 +6,7 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { BsStripe } from "react-icons/bs";
 import wImage from '../imgs/weatherapp.png';
 import tImage from '../imgs/todoapp.png';
 import expense from '../imgs/expenseTrackerApp.png';
@@ -13,12 +14,32 @@ import showroom from '../imgs/showroom.png';
 import animations from '../imgs/animations.png';
 import crop from '../imgs/crop.png';
 import life from '../imgs/lifebook.png';
+import pure from '../imgs/puretone.png';
 import { DiMongodb } from "react-icons/di";
 import { SiAuth0 } from "react-icons/si";
 
 
 
 export const Projects = [
+    {
+        title: "PureTone Labs",
+        description: "E-commerce website for a fictional audio equipment company. Project was made to integrate Stripe payment processing into a MERN stack application.",
+        highlights: [
+            "",
+            "",
+            ""
+        ],
+        repo: "https://github.com/AxAnder0095/PureTone-Labs",
+        website: "https://www.youtube.com/watch?v=jvwiXqNLXpI",
+        image: pure,
+        techStack: [
+            <DiMongodb size={30} fill="#68A063" />,
+            <SiExpress size={30} fill="#009e00" />,
+            <FaReact size={30} fill="#46a6ff" />,
+            <FaNodeJs size={30} fill="#16bb00" />,
+            <BsStripe size={30} fill="#6772e5" />,
+        ]
+    },
     {
         title: "LifeBook MERN + Auth0",
         description: "Personal journaling app. Project was made to integrate Auth0 authentication and authorization into a MERN stack application.",
@@ -87,22 +108,6 @@ export const Projects = [
             <FaReact size={30} fill="#46a6ff" />,
             <RiSupabaseFill size={30} fill="#39ff64" />,
             <IoLogoVercel size={30} fill="#e4e4e4" />,
-        ]
-    },
-    {
-        title: "Aniamations Showcase",
-        description: "A responsive website that highlights custom-built CSS animations for UI elements and effects.",
-        highlights: [
-            "",
-            "",
-            ""
-        ],
-        repo: "https://github.com/AxAnder0095/animations",
-        website: "https://animations-feb82.web.app",
-        image: animations,
-        techStack: [
-            <FaReact size={30} fill="#46a6ff" />,
-            <FaCss3Alt size={30} fill="#264de4" />,
         ]
     },
     {
