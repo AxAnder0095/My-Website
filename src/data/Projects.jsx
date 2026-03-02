@@ -7,6 +7,10 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { BsStripe } from "react-icons/bs";
+import { DiMongodb } from "react-icons/di";
+import { SiAuth0 } from "react-icons/si";
+
+// Images
 import wImage from '../imgs/weatherapp.png';
 import tImage from '../imgs/todoapp.png';
 import expense from '../imgs/expenseTrackerApp.png';
@@ -15,12 +19,30 @@ import animations from '../imgs/animations.png';
 import crop from '../imgs/crop.png';
 import life from '../imgs/lifebook.png';
 import pure from '../imgs/puretone.png';
-import { DiMongodb } from "react-icons/di";
-import { SiAuth0 } from "react-icons/si";
+import clear from '../imgs/clear.png';
 
 
 
 export const Projects = [
+    {
+        title: "ClearCents",
+        description: "A full-stack personal finance management web application that allows users to track their income, expenses, and savings goals with real-time data persistence and user authentication.",
+        highlights: [
+            "",
+            "",
+            ""
+        ],
+        repo: "https://github.com/AxAnder0095/ClearCents",
+        website: "https://youtu.be/nUMwPF7ndq0",
+        image: clear,
+        techStack: [
+            <DiMongodb size={30} fill="#68A063" />,
+            <SiExpress size={30} fill="#009e00" />,
+            <FaReact size={30} fill="#46a6ff" />,
+            <FaNodeJs size={30} fill="#16bb00" />,
+            <SiAuth0 size={30} fill="#EB5424" />,
+        ]
+    },
     {
         title: "PureTone Labs",
         description: "E-commerce website for a fictional audio equipment company. Project was made to integrate Stripe payment processing into a MERN stack application.",
